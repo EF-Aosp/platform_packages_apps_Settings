@@ -6216,4 +6216,26 @@
     <string name="heads_up_time_out_10sec">10 seconds</string>
     <string name="heads_up_time_out_never">Never</string>
 
+    <!-- Recents panel settings -->
+    <string name="recents_panel_settings">Recents panel settings</string>
+    <string name="show_clear_all_recents_button_title">Clear all recents button</string>
+    <string name="show_clear_all_recents_button_summary">Show clear all button on recents panel</string>
+    <string name="recents_clear_all_location_title">Clear all recents location</string>
+    <string name="recents_clear_all_location_right">Top right</string>
+    <string name="recents_clear_all_location_left">Top left</string>
+
+    <!-- Advanced Options -->
+    <string name="advanced_options_title">Advanced Options</string>
+    <string name="advanced_options_general_category">Options</string>
+
+    <!-- Personalization -->
+    <string name="header_category_personalization">Personalization</string>
+
+    <!-- LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="dialog_title_lcd_density">LCD density</string>
+    <string name="lcd_density_value_format">%d DPI</string>
+    <string name="lcd_density_default_value_format">%d DPI (default)</string>
+    <string name="restarting_ui">Restarting UI\u2026</string>
+
 </resources>
