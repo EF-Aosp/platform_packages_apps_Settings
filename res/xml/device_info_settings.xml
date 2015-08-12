@@ -140,6 +140,12 @@
                 android:title="@string/build_number"
                 android:summary="@string/device_info_default"/>
 
+	<!-- Device EF version -->
+        <Preference android:key="pa_version"
+                 style="?android:preferenceInformationStyle"
+                android:title="@string/ef_version"
+                android:summary="@string/ef_version_default" />
+
 	<!-- EF-Aosp build date -->
         <Preference android:key="build_date"
                 style="?android:preferenceInformationStyle"
