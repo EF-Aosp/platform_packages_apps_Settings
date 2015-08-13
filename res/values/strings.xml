@@ -6187,7 +6187,7 @@
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 
  <!-- EF-Aosp Build Info -->
-   <string name="ef_version">Ef-Aosp Build Info</string>
+   <string name="ef_version">EF-Aosp Build Info</string>
    <string name="ef_version_default">2014-01-01-0000</string>
 
 </resources>
