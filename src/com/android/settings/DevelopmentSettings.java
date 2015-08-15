@@ -242,6 +242,7 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
     private SwitchPreference mShowAllANRs;
 
     private PreferenceScreen mProcessStats;
+
     private SwitchPreference mAdvancedReboot;
     private SwitchPreference mHeadsUpTicker;
 
@@ -579,6 +580,11 @@ public class DevelopmentSettings extends SettingsPreferenceFragment
         updateUSBAudioOptions();
         updateAdvancedRebootOptions();
         updateHeadsUpTickerOptions();
+    }
+
+    private void resetAdvancedRebootOptions() {
+        Settings.Secure.putInt(getActivity().getContentResolver(),
+                Settings.Secure.ADVANCED_REBOOT, 0);
     }
 
     private void writeAdvancedRebootOptions() {
