@@ -168,12 +168,6 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         getListView().setOnItemLongClickListener(this);
         getActivity().invalidateOptionsMenu();
 
-        // If running on a phone, remove padding around container
-        // and the preference listview
-        if (!Utils.isTablet(getActivity())) {
-            mPrefsContainer.setPadding(0, 0, 0, 0);
-            getListView().setPadding(0, 0, 0, 0);
-        }
     }
 
     @Override
@@ -432,7 +426,7 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
 
     private void updateEnabledState() {
         boolean enabled = Settings.System.getInt(getContentResolver(),
-                Settings.System.HEADS_UP_NOTIFICATION, 0) != 0;
+                Settings.System.HEADS_UP_NOTIFICATION, 1) != 0;
         mPrefsContainer.setVisibility(enabled ? View.VISIBLE : View.GONE);
         mDisabledText.setVisibility(enabled ? View.GONE : View.VISIBLE);
     }
