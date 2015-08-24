@@ -6230,4 +6230,10 @@
     <string name="lcd_density_default_value_format">%d DPI (default)</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
 
+  <!-- Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 </resources>
