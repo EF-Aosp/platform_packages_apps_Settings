@@ -6231,9 +6231,10 @@
     <string name="restarting_ui">Restarting UI\u2026</string>
 
     <!-- Status bar - Battery Settings -->
-    <string name="status_bar_general_category">General</string>
+    <string name="status_bar_general_category">Battery</string>
     <string name="status_bar_title">Battery Settings</string>
 
+    <!-- Status bar - Style -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
