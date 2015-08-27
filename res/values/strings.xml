@@ -6230,6 +6230,10 @@
     <string name="lcd_density_default_value_format">%d DPI (default)</string>
     <string name="restarting_ui">Restarting UI\u2026</string>
 
+    <!-- Status bar-->
+    <string name="status_bar_general_category">General</string>
+    <string name="status_bar_title">Battery Settings</string>
+
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
