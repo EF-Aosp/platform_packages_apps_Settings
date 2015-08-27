@@ -2104,5 +2104,8 @@
    <!-- Heads up notifications -->
         <activity android:name=".headsup.HeadsUpSettings" />
 
+   <!-- Battery Settings -->
+   <activity android:name=".simpleaosp.StatusBarSettings" />
+
     </application>
 </manifest>

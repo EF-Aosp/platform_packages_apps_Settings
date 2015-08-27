@@ -10,13 +10,8 @@ import android.preference.Preference;
 import android.preference.PreferenceScreen;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceScreen;
-import android.preference.Preference;
 import com.android.settings.R;
 import android.provider.Settings;
-import android.provider.SearchIndexableResource;
-import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -30,11 +25,9 @@ import android.os.Handler;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StatusBarSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+public class StatusBarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     // Statusbar general category
-        // Statusbar general category
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
 
@@ -105,14 +98,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private void updateClockStyleDescription() {
         if (mClockStyle == null) {
             return;
-        }
-        if (Settings.System.getInt(getContentResolver(),
-               Settings.System.STATUS_BAR_CLOCK, 1) == 1) {
-            mClockStyle.setSummary(getString(R.string.enabled_string));
-        } else {
-            mClockStyle.setSummary(getString(R.string.disabled_string));
-         }
     }
+}
 
     private void enableStatusBarBatteryDependents(int batteryIconStyle) {
         if (batteryIconStyle == STATUS_BAR_BATTERY_STYLE_HIDDEN || 
