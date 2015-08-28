@@ -1769,11 +1769,11 @@
             android:theme="@style/CryptKeeperBlankTheme"
         />
 
-       <!-- SAOSP start -->
+       <!-- LF-AOSP start -->
        <activity
              android:name=".simpleaosp.AdditionalSettings" />
 
-       <!-- SAOSP end -->
+       <!-- LF-AOSP end -->
 
         <!-- Pseudo-activity used to provide an intent-filter entry point to encryption settings -->
         <activity android:name="Settings$CryptKeeperSettingsActivity"
@@ -2109,9 +2109,6 @@
 
    <!-- Heads up notifications -->
         <activity android:name=".headsup.HeadsUpSettings" />
-
-   <!-- Battery Settings -->
-   <activity android:name=".simpleaosp.StatusBarSettings" />
 
     </application>
 </manifest>

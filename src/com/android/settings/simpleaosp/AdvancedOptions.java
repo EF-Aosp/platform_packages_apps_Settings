@@ -57,6 +57,7 @@ import com.android.settings.Utils;
 public class AdvancedOptions extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     // Statusbar general category
+    private static final String TAG = "AdvancedOptions";
     private static String STATUS_BAR_GENERAL_CATEGORY = "status_bar_general_category";
     private static final String KEY_STATUS_BAR_CLOCK = "clock_style_pref";
 
