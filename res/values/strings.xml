@@ -6255,17 +6255,6 @@
      <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
      <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
 
-    <!-- WiFi Ad-Hoc mode -->
-    <!-- Checkbox title for option to Automatically manage Wi\u2011Fi  [CHAR LIMIT=40] -->
-    <string name="wifi_automatically_manage_title">Automatically manage Wi\u2011Fi</string>
-    <string name="wifi_mode">Mode</string>
-    <string name="wifi_mode_ibss">Ad-Hoc (IBSS) Network</string>
-    <string name="wifi_mode_ibss_short">Ad-Hoc</string>
-
-    <string name="wifi_ibss_freq_title">Channel / Frequency</string>
-    <string name="wifi_channel">Channel</string>
-    <string name="wifi_mhz">MHz</string>
-
     <!-- Navigation Bar -->
     <string name="navigation_bar_title">Navigation bar</string>
 
