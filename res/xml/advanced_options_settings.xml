@@ -22,13 +22,18 @@
 
 <PreferenceScreen
 	        android:key="status_bar_general_category"
-	        android:fragment="com.android.settings.simpleaosp.StatusBarSettings"
+	        android:fragment="com.android.settings.simpleaosp.AdvancedOptions"
 	        android:title="@string/status_bar_title" />
 
 <ListPreference
                 android:key="lcd_density"
                 android:title="@string/lcd_density"
                 android:persistent="false" />
+
+	<PreferenceScreen
+	        android:key="navigation_bar"
+	        android:fragment="com.android.settings.simpleaosp.NavigationBarSettings"
+	        android:title="@string/navigation_bar_title" />
 
         <PreferenceScreen 
 		android:key="heads_up_enabled"

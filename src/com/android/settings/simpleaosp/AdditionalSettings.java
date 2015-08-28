@@ -76,6 +76,7 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
 	    frags[0] = new StatusBarSettings();
+	    frags[1] = new AdvancedOptions();
         }
 
         @Override
@@ -97,7 +98,8 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
     private String[] getTitles() {
         String titleString[];
         titleString = new String[]{
-		    getString(R.string.status_bar_title)};
+		    getString(R.string.status_bar_title),
+		     getString(R.string.advanced_options_title)};
         return titleString;
     }
 }
