@@ -6232,7 +6232,7 @@
 
     <!-- Status bar - Battery Settings -->
     <string name="status_bar_general_category">Battery</string>
-    <string name="status_bar_title">Battery Settings</string>
+    <string name="status_bar_title">Battery Settings</string>    
 
     <!-- Status bar - Style -->
     <string name="status_bar_battery_style_title">Battery status style</string>

@@ -83,6 +83,20 @@
                     android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
       </dashboard-tile>
 
+    <!-- Personalization -->
+    <dashboard-category
+            android:id="@+id/personalization_section"
+            android:title="@string/header_category_personalization" >
+
+        <!-- Parallax settings -->
+        <dashboard-tile
+                android:id="@+id/advanced_options_settings"
+                android:title="@string/advanced_options_title"
+                android:fragment="com.android.settings.simpleaosp.AdditionalSettings"
+                android:icon="@drawable/ic_settings_buttons" />
+
+   </dashboard-category>
+
     </dashboard-category>
 
     <!-- DEVICE -->
