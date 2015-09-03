@@ -72,17 +72,6 @@
                 android:icon="@drawable/ic_settings_more"
                 />
 
- <!-- BitSyko Layers App -->
-      <dashboard-tile
-                android:id="@+id/bitsyko_layers"
-                android:icon="@drawable/ic_bitsyko_layers"
-		android:title="@string/bitsyko_layers">     
-		<intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.lovejoy777.rroandlayersmanager"
-                    android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
-      </dashboard-tile>
-
     <!-- Personalization -->
     <dashboard-category
             android:id="@+id/personalization_section"
@@ -100,6 +89,18 @@
     </dashboard-category>
 
     <!-- DEVICE -->
+
+     <!-- BitSyko Layers App -->
+     <dashboard-tile
+                android:id="@+id/bitsyko_layers"
+                android:icon="@drawable/ic_bitsyko_layers"
+		android:title="@string/bitsyko_layers">     
+		<intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.lovejoy777.rroandlayersmanager"
+                    android:targetClass="com.lovejoy777.rroandlayersmanager.menu" />
+      </dashboard-tile>
+
     <dashboard-category
             android:id="@+id/device_section"
             android:title="@string/header_category_device" >
