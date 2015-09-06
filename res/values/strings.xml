@@ -6223,11 +6223,8 @@
     <string name="heads_up_time_out_never">Never</string>
 
     <!-- Advanced Options -->
-    <string name="advanced_options_title">Advanced Options</string>
-    <string name="advanced_options_general_category">Options</string>
-
-    <!-- Personalization -->
-    <string name="header_category_personalization">Personalization</string>
+    <string name="ef_aosp_settings_title">EF-Settings</string>
+    <string name="keywords_ef_aosp">EF-Aosp</string>
 
     <!-- LCD density -->
     <string name="lcd_density">LCD density</string>
@@ -6274,4 +6271,11 @@
     <!-- Gesture Settings -->
     <!-- Settings main menu entry -->
     <string name="gesture_settings_title">Gestures</string>
+
+ <!-- Advanced Options -->
+    <string name="advanced_options_title">Advanced Options</string>
+    <string name="advanced_options_general_category">Options</string>
+
+    <!-- Personalization -->
+    <string name="header_category_personalization">Personalization</string>
 </resources>

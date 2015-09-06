@@ -1771,7 +1771,7 @@
 
        <!-- LF-AOSP start -->
        <activity
-	     android:name=".simpleaosp.AdvancedOptions" />
+	     android:name=".simpleaosp.AdditionalSettings" />
 
        <!-- LF-AOSP end -->
 
