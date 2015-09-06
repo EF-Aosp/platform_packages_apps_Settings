@@ -77,13 +77,15 @@ public class AdvancedOptions extends SettingsPreferenceFragment implements OnPre
         super.onCreate(savedInstanceState);
 	addPreferencesFromResource(R.xml.advanced_options);
         mNavigationBarHeight = (ListPreference) findPreference(KEY_NAVIGATION_BAR_HEIGHT);
+        if (mNavigationBarHeight != null) {
         mNavigationBarHeight.setOnPreferenceChangeListener(this);
+        }
         int statusNavigationBarHeight = Settings.System.getInt(getActivity().getApplicationContext()
                 .getContentResolver(),
                 Settings.System.NAVIGATION_BAR_HEIGHT, 48);
         mNavigationBarHeight.setValue(String.valueOf(statusNavigationBarHeight));
         mNavigationBarHeight.setSummary(mNavigationBarHeight.getEntry());
-    
+
 	PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
