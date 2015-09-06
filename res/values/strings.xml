@@ -6270,4 +6270,8 @@
     <string name="navigation_bar_height_24">24dp</string>
     <string name="navigation_bar_height_20">20dp</string>
     <string name="navigation_bar_height_0">0dp (hide)</string>
+
+    <!-- Gesture Settings -->
+    <!-- Settings main menu entry -->
+    <string name="gesture_settings_title">Gestures</string>
 </resources>
