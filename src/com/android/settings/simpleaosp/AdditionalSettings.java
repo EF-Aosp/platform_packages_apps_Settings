@@ -21,9 +21,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.settings.headsup.HeadsUpSettings;
 import com.android.settings.simpleaosp.StatusBarSettings;
 import com.android.settings.simpleaosp.NavigationBarSettings;
-import com.android.settings.simpleaosp.AdvancedOptions;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -81,7 +81,7 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
             super(fm);
 	    frags[0] = new StatusBarSettings();
 	    frags[1] = new NavigationBarSettings();
-	    frags[2] = new AdvancedOptions();
+	    frags[2] = new HeadsUpSettings();
         }
 
         @Override
@@ -105,7 +105,7 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
         titleString = new String[]{
 		    getString(R.string.status_bar_title),
 			getString(R.string.navigation_bar_title),
-		     getString(R.string.advanced_options_title)};
+			getString(R.string.category_heads_up)};
         return titleString;
     }
 }
