@@ -22,6 +22,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.settings.simpleaosp.StatusBarSettings;
+import com.android.settings.simpleaosp.NavigationBarSettings;
+import com.android.settings.simpleaosp.AdvancedOptions;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -43,9 +45,11 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         mContainer = container;
-
-        View view = inflater.inflate(R.layout.additional_settings, container, false);
+	
+	View view = inflater.inflate(R.layout.additional_settings, container, false);
         mViewPager = (ViewPager) view.findViewById(R.id.viewPager);
+        mPagerTabStrip = (PagerTabStrip) view.findViewById(R.id.pagerTabStrip);
+        mPagerTabStrip.setDrawFullUnderline(true);
 
         StatusBarAdapter StatusBarAdapter = new StatusBarAdapter(getFragmentManager());
         mViewPager.setAdapter(StatusBarAdapter);
@@ -76,7 +80,8 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
         public StatusBarAdapter(FragmentManager fm) {
             super(fm);
 	    frags[0] = new StatusBarSettings();
-	    frags[1] = new AdvancedOptions();
+	    frags[1] = new NavigationBarSettings();
+	    frags[2] = new AdvancedOptions();
         }
 
         @Override
@@ -99,6 +104,7 @@ public class AdditionalSettings extends SettingsPreferenceFragment {
         String titleString[];
         titleString = new String[]{
 		    getString(R.string.status_bar_title),
+			getString(R.string.navigation_bar_title),
 		     getString(R.string.advanced_options_title)};
         return titleString;
     }

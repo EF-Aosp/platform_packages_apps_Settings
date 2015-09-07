@@ -85,13 +85,8 @@
                 android:title="@string/ef_aosp_settings_title"
                 android:fragment="com.android.settings.simpleaosp.AdditionalSettings"
                 android:icon="@drawable/ic_settings_buttons" />
-	</dashboard-category>
 
-    <dashboard-category
-            android:id="@+id/device_section"
-            android:title="@string/header_category_device" >
-
-     <!-- Gestures -->
+        <!-- Gestures -->
         <dashboard-tile
             android:id="@+id/device_specific_gesture_settings"
             android:title="@string/gesture_settings_title"
@@ -101,6 +96,12 @@
                 android:targetPackage="com.cyanogenmod.settings.device"
                 android:targetClass="com.cyanogenmod.settings.device.TouchscreenGestureSettings" />
         </dashboard-tile>
+
+	</dashboard-category>
+
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:title="@string/header_category_device" >
 
   	<!-- BitSyko Layers App -->
         <dashboard-tile

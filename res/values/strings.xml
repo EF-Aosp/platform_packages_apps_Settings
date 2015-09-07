@@ -6224,7 +6224,7 @@
 
     <!-- Advanced Options -->
     <string name="ef_aosp_settings_title">EF-Settings</string>
-    <string name="keywords_ef_aosp">EF-Aosp</string>
+    <string name="keywords_ef_aosp">EF-Settings</string>
 
     <!-- LCD density -->
     <string name="lcd_density">LCD density</string>
@@ -6277,5 +6277,5 @@
     <string name="advanced_options_general_category">Options</string>
 
     <!-- Personalization -->
-    <string name="header_category_personalization">Personalization</string>
+    <string name="header_category_personalization">EF Time</string>
 </resources>
