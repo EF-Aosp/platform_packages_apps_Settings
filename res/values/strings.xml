@@ -6193,8 +6193,8 @@
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 
  <!-- EF-Aosp Build Info -->
-   <string name="ef_version">EF-Aosp Build Info</string>
-   <string name="ef_version_default">2014-01-01-0000</string>
+   <string name="l_version">Lantern Aosp Build Info</string>
+   <string name="l_version_default">2014-01-01-0000</string>
 
  <!-- BitSyko Layers  -->
     <string name="bitsyko_layers">Layers</string>
@@ -6277,5 +6277,5 @@
     <string name="advanced_options_general_category">Options</string>
 
     <!-- Personalization -->
-    <string name="header_category_personalization">EF Time</string>
+    <string name="header_category_personalization">Lantern Time</string>
 </resources>

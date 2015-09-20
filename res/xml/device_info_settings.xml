@@ -110,11 +110,11 @@
                 android:title="@string/processor_info"
                 android:summary="@string/device_info_default"/>
 
-	<!-- Device EF-Aosp Build Info -->
-        <Preference android:key="ef_version"
+	<!-- Device Lantern Aosp Build Info -->
+        <Preference android:key="l_version"
                  style="?android:preferenceInformationStyle"
-                android:title="@string/ef_version"
-                android:summary="@string/ef_version_default" />
+                android:title="@string/l_version"
+                android:summary="@string/l_version_default" />
 
         <!-- Device firmware version -->
         <Preference android:key="firmware_version" 
