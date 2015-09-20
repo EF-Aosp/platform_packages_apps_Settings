@@ -6192,7 +6192,7 @@
     <string name="advanced_reboot_title">Advanced reboot</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for rebooting into recovery, bootloader or performing a soft reboot</string>
 
- <!-- EF-Aosp Build Info -->
+ <!-- Lantern-Aosp Build Info -->
    <string name="l_version">Lantern Aosp Build Info</string>
    <string name="l_version_default">2014-01-01-0000</string>
 
@@ -6223,8 +6223,8 @@
     <string name="heads_up_time_out_never">Never</string>
 
     <!-- Advanced Options -->
-    <string name="ef_aosp_settings_title">EF-Settings</string>
-    <string name="keywords_ef_aosp">EF-Settings</string>
+    <string name="l_aosp_settings_title">Lantern Settings</string>
+    <string name="keywords_l_aosp">Lantern Settings</string>
 
     <!-- LCD density -->
     <string name="lcd_density">LCD density</string>
