@@ -79,10 +79,10 @@
 	android:id="@+id/personalization_section"
             android:title="@string/header_category_personalization" >
 
-        <!-- Ef-Aosp Settings -->
+        <!-- Lantern-Aosp Settings -->
         <dashboard-tile
-                android:id="@+id/ef_aosp_settings"
-                android:title="@string/ef_aosp_settings_title"
+                android:id="@+id/l_aosp_settings"
+                android:title="@string/l_aosp_settings_title"
                 android:fragment="com.android.settings.simpleaosp.AdditionalSettings"
                 android:icon="@drawable/ic_settings_buttons" />
 
