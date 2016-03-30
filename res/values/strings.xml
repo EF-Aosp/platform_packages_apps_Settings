@@ -7071,4 +7071,7 @@
    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
+ <!-- Lantern-Aosp build date-->
+   <string name="build_date">Lantern Build Date</string>
+   <string name="build_date_default">2014-01-01-0000</string>
 </resources>
